@@ -1,10 +1,7 @@
-> 🚨 **NOTICE**: `@adiwajshing/baileys` which is this project relied on, has been discontinued. Thus, this project will be archived and stopped receiving updates anymore. Thanks everyone who's been part of this❤️
-
----
-
 # Baileys API
 
 An implementation of [@adiwajshing/Baileys](https://github.com/adiwajshing/Baileys) as a simple REST API with multiple device support
+*This used a Baileys copy from [WhiskeySocket/Baileys](https://github.com/WhiskeySockets/Baileys) repository as a dependency, the original one was removed*
 
 ## Requirements
 
@@ -26,8 +23,7 @@ npm install
 ```sh
 npm run build
 ```
-
-You can skip this part if you're using the prebuilt one from the release page
+*Note: This more likely to be fail as it's a typescript project, but the output should be fine
 
 ## Setup
 
