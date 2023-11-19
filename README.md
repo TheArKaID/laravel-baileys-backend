@@ -1,59 +1,31 @@
-# Tutorial Update Baileys API
-1. Tutorial installation [here](https://youtu.be/rTn-TBj5ifs)
-2. Add bulk messages [here](https://youtu.be/lYf8AJ7-BN4)
+> 🚨 **NOTICE**: `@adiwajshing/baileys` which is this project relied on, has been discontinued. Thus, this project will be archived and stopped receiving updates anymore. Thanks everyone who's been part of this❤️
 
-# Baileys Restful API with Laravel
-An implementation of [@adiwajshing/Baileys](https://github.com/adiwajshing/Baileys) as a simple RESTful API service with multiple device support.
+---
 
-## Credits
-1. Framework : Laravel 8
-2. Admin Panel : Crudbooster
-3. Backend Server : [@ookamiiixd/baileys-api](https://github.com/ookamiiixd/baileys-api)
+# Baileys API
 
-## Requirement
-1. php 7.4
-2. MySQL / MariaDB
-3. NodeJs 14 or higher
+An implementation of [@adiwajshing/Baileys](https://github.com/adiwajshing/Baileys) as a simple REST API with multiple device support
 
-## Frontend Installation
+## Requirements
 
-1. First clone or download this repository:
-```bash
-git clone https://github.com/saifulcoder/laravel-whatsapp-server.git
+- **NodeJS** version **14.5.0** or higher
+- **Prisma** [supported databases](https://www.prisma.io/docs/reference/database-reference/supported-databases). Tested on MySQL and PostgreSQL
+
+## Installation
+
+1. Download or clone this repo. If you want to skip the build step, you can download the prebuilt one (file with the `baileys-api-VERSION.tgz` name pattern) from the release page
+2. Enter to the project directory
+3. Install the dependencies
+
+```sh
+npm install
 ```
-2. Enter directory project `cd laravel-whatsapp-server`
-3. Execute `composer install` to install the dependencies.
-4. Setting the database configuration, rename `.env.example` to `.env` and open file at project root directory
-```bash
-DB_DATABASE=**your_db_name**
-DB_USERNAME=**your_db_user**
-DB_PASSWORD=**password**
+
+4. Build the project using the `build` script
+
+```sh
+npm run build
 ```
-5. Setting the URL backend server configuration, open `.env` file at project root directory
-```bash
-URL_WA_SERVER=http://localhost:3000
-```
-6. Import database db.sql
-
-7. Run laravel
-```bash
-php artisan serve --port=80
-```
-8. Dashboard Admin 
-```bash
-/admin/login
-```
-default email : admin@crudbooster.com <br>
-default password : 123456
-
-
-## Backend Installation 
-
-Simple RESTful WhatsApp API by [@ookamiiixd/baileys-api](https://github.com/ookamiiixd/baileys-api) .
-
-1. Enter to the backend project directory `cd backend`.
-2. Execute `npm i` to install the dependencies.
-3. Build the project using the build script `npm run build`
 
 You can skip this part if you're using the prebuilt one from the release page
 
@@ -119,37 +91,6 @@ The API documentation is available online [here](https://documenter.getpostman.c
 
 - There's no authentication, you may want to implement your own. I don't want to force anyone into using a specific authentication method, choose whatever you love
 
-
-
 ## Notice
 
 This project is intended for learning purpose only, don't use it for spamming or any activities that's prohibited by **WhatsApp**
-
-
-# Functions laravel-wa-server
-
-|                                                               |   |
-|---------------------------------------------------------------|---|
-| Multiple Device                                               | ✔ |
-| 📁 Send **text**                                             | ✔ |
-| Admin Panel                                                  | ✔ |
-| Multiple Users                                                | ✔ |
-| User Privilege                                              | ✔ |
-| API RESTFul                                              | ✔ |
-| 📁 Send **image, video, audio and docs**                      | ✔ |
-| Send stickers                                                 | ✔ |
-| Send stickers GIF                                             | ✔ |
-| Send Buttons                                                  | coming soon |
-| Send Bulk Message                                             | coming soon |
-| Send Message with schedule                                    | coming soon |
-| Receive message                                               | coming soon |
-| Get Chat List                                                | coming soon |
-| Get Chat Conversation                                         | coming soon |
-| Webhook                                                    | coming soon |
-
-## Contributing
-
-This project helps you and you want to help keep it going? Buy me a coffee:
-<br> <a href="https://www.buymeacoffee.com/saifulcoder" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 61px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a><br>
-or via <br>
-<a href="https://saweria.co/saifulcoder">https://saweria.co/saifulcoder</a>
